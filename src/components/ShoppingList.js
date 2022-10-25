@@ -2,7 +2,7 @@ import { plantList } from '../datas/plantList'
 import PlantItem from './PlantItem'
 import '../styles/ShoppingList.css'
 import Categories from './Categories'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 
 function ShoppingList({ cart, updateCart }) {
 	const [activeCategory, setActiveCategory] = useState('')
